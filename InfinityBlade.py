@@ -349,8 +349,8 @@ def stone_platform(entry):
             """))
     elif entry == "ladder":
         print(dedent("""
-            You climb down the ladder onto a stone platform. It is in
-            the corner of a cavernous room filled with water.
+            You open the trapdoor and climb down a ladder onto a stone platform.
+            It is in the corner of a cavernous room filled with water.
             What do you do?
             """))
     else:

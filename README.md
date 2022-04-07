@@ -4,7 +4,7 @@ Simple, basic, and buggy text adventure game-but I made it!
 
 Infinity Blade runs in the command-line interface (CLI) and can seem scary to approach if you are unfamiliar with the CLI. Don't be alarmed, it should be very easy to follow these instructions. If you get lost, start from the beginning and make sure you have completed every step. If you are still having trouble then look it up!
 
-If you have some of the requirements but not others, follow the directions but simply skip any step you already have done.
+If you have some of the prereqs but not others, follow the directions but simply skip any step you already have done.
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ If you have all four installed, skip ahead to the Infinity Blade specific [Insta
 
 - [Homebrew](https://brew.sh) will help install what you need to run this game (and any other cool projects from GitHub!). This might seem complicated but it is a **much** easier way to install programs.
 
-- [Git](https://git-scm.com/download/mac) which helps transfer the code from GitHub to your local computer (basically).
+- [Git](https://git-scm.com/download/mac) helps transfer the code from GitHub to your local computer (basically).
 
 - Infinity Blade is written in—and runs on—[Python3](https://www.python.org/downloads/).
 
@@ -31,9 +31,9 @@ Open the Terminal application. This can be found in Finder in your Applications 
 First you need to install the Xcode Command Line Tools if you have never done so. You only need to do this once on your computer.
 Copy and paste the following line into your terminal and hit return:
 ```
-sudo xcode-select --install
+xcode-select --install
 ```
-Download the Xcode Command Line Tools (not the whole app) when prompted. First step done!
+Download the Xcode Command Line Tools (not the whole app) when prompted. If it asks for a password it is the password you use for your computer. First step done!
 
 ### Homebrew
 
@@ -53,22 +53,23 @@ As before, this is a one time install and you will not be required to do this ag
 
 ### Python
 
-Python should also be installed using Homebrew. (You may be tempted to install Python the "traditional way" through the website, but I promise this is much simpler and also easier to uninstall later if you wish!) Copy and paste the following line into your terminal and hit return:
+Python should also be installed using Homebrew (if you haven't already installed it). You may be tempted to install Python the "traditional way" through the website, but I promise this is much simpler and also easier to uninstall later if you wish! Copy and paste the following line into your terminal and hit return:
 ```
 brew install python
 ```
 
 ## Installation
 
-
-Clone project with git
+Now you are ready to copy Infinity Blade from GitHub to your computer. You can install wherever you want, but the desktop is an easy option. First you have to change the current directory (read: location) to where you want the game. Use this command:
+```
+cd ~/desktop
+```
+Now you will copy the project to your desktop. It is finally time to install Infinity Blade with git. Copy and paste the following line and hit return:
 ```
 git clone https://github.com/fletcherweld/InfinityBlade.git
 ```
 
 ## Playing
-
-
 
 navigate to infinity blade folder
 

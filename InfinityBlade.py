@@ -16,8 +16,8 @@ def start():
     print(dedent(f"""
         
         A loud voice booms from the walls:
-        "{user_name}! You are trapped here on {world_name} Island.
-        To escape, find the Infinity Blade and defeat the Boss Monster."
+        "{user_name}! You are trapped on an island in the land of {world_name}.
+        To escape, find the Infinity Blade and defeat the Boss Monster who guards the bridge."
         """))
 
     start_room()

@@ -72,6 +72,8 @@ Although you will run the game in Terminal, you should see a Folder named Infini
 
 ## Playing
 
+### Starting the Game
+
 You will once again change directory to the InfinityBlade folder. If you copied it to your desktop that command would be:
 ```
 cd ~/desktop/InfinityBlade
@@ -90,8 +92,10 @@ python3 infinityblade.py "firstname lastname" randomworld
 ```
 Double check your spelling and then hit return. You are now playing Infinity Blade!
 
-```python
-print(hello world)
-```
+## Gameplay
 
-test of `print(inline code)` in `github`.
+Follow the prompts and instructions and good luck in your adventures!
+
+If you are trying to do something in the game but it is not letting you try using different words or being more specific.
+
+If you wish to stop before completing the game you can hit `control+C` to stop the program and then quit Terminal. However, nothing bad will happen if you quit Terminal while in a game if you happen to forget this keyboard shortcut.
